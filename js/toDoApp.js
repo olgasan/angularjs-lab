@@ -18,6 +18,18 @@ var model = {
 
 var toDoApp = angular.module("toDoApp", []);
 
+toDoApp.filter("checkedItems", function(){
+   return function(items, showComplete){
+       var resultArray = [];
+       angular.forEach(items, function(item){
+           if (!item.done || showComplete){
+               resultArray.push(item);
+           }
+       });
+       return resultArray;
+   }
+});
+
 toDoApp.controller("ToDoCntrl", function($scope){
     $scope.toDo = model;
 
@@ -31,8 +43,18 @@ toDoApp.controller("ToDoCntrl", function($scope){
         return count;
     };
 
-    $scope.noPendingTasks = function()
-    {
+    $scope.noPendingTasks = function(){
         return $scope.incompleteCount()==0;
+    };
+
+    $scope.warningLevel = function(){
+        return $scope.incompleteCount() > 2 ? "label-warning" : "label-default";
+    };
+
+    $scope.addItem = function(itemText){
+        $scope.toDo.items.push({
+            action: itemText,
+            done: false
+        });
     }
 });
