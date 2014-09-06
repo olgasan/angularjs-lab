@@ -13,13 +13,13 @@
     <div class="page-header">
         <h1>
             {{toDo.user}}'s To Do List
-            <span class="label label-default">{{toDo.items.length}}</span>
             ToDo List
+            <span class="label label-default" ng-hide="noPendingTasks()">{{incompleteCount()}}</span>
         </h1>
     </div>
     <div class="panel">
         <div class="input-group">
-            <input class="form-control" >
+            <input class="form-control" />
             <span class="input-group-btn">
                 <button class="btn btn-default">Add</button>
             </span>
@@ -34,7 +34,9 @@
             <tbody>
             <tr ng-repeat="item in toDo.items">
                 <td>{{item.action}}</td>
-                <td>{{item.done}}</td>
+                <td>
+                    <input type="checkbox" ng-model="item.done" />
+                </td>
             </tr>
             </tbody>
         </table>
