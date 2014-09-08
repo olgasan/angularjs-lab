@@ -8,18 +8,20 @@ angular.module("cart", [])
 
                 for (var i=0; i<cartData.length; i++){
                     if (cartData[i].id == id){
+
                         cartData[i].count++;
                         addedToExistingItem = true;
                         break;
                     }
-                    if (!addedToExistingItem){
-                        cartData.push({
-                            count:1,
-                            id:id,
-                            price:price,
-                            name:name
-                        });
-                    }
+                }
+
+                if (!addedToExistingItem){
+                    cartData.push({
+                        count:1,
+                        id:id,
+                        price:price,
+                        name:name
+                    });
                 }
             },
             removeProduct: function(id){
