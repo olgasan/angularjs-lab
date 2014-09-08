@@ -10,15 +10,17 @@
     <link href="bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
 
     <script type="text/javascript">
-        angular.module("sportsStore", ['customFilter']);
+        angular.module("sportsStore", ['customFilter', 'cart']);
     </script>
     <script src="controllers/sportsStore.js"></script>
     <script src="filters/customFilters.js"></script>
     <script src="controllers/productListControllers.js"></script>
+    <script src="components/cart/cart.js"></script>
 </head>
 <body ng-controller="sportsStoreCntrl">
     <div class="navbar navbar-inverse">
         <a class="navbar-brand" href="#">SPORTS STORE</a>
+        <cart-summary></cart-summary>
     </div>
     <div class="alert alert-danger" ng-hide="data.products.length>0">
         Error({{data.error.status}}). The product data was not loaded.
