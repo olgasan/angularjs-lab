@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e77b5718-f2f4-4690-9023-5310d3b2e2c5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.html" afterPath="$PROJECT_DIR$/app.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filters/customFilters.js" afterPath="$PROJECT_DIR$/filters/customFilters.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/productListControllers.js" afterPath="$PROJECT_DIR$/controllers/productListControllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/sportsStore.js" afterPath="$PROJECT_DIR$/controllers/sportsStore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angularjs-lab.iws" />
@@ -28,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8764045" vertical-offset="544" max-vertical-offset="1276">
+            <state vertical-scroll-proportion="-15.096774" vertical-offset="544" max-vertical-offset="1276">
               <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
               <folding />
             </state>
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sportsStore.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sportsStore.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/sportsStore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.38938054" vertical-offset="0" max-vertical-offset="565">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -90,10 +88,10 @@
         <option value="$PROJECT_DIR$/jsdemo.html" />
         <option value="$PROJECT_DIR$/js/todo.json.js" />
         <option value="$PROJECT_DIR$/js/todo.json" />
-        <option value="$PROJECT_DIR$/controllers/sportsStore.js" />
         <option value="$PROJECT_DIR$/controllers/productListControllers.js" />
         <option value="$PROJECT_DIR$/filters/customFilters.js" />
         <option value="$PROJECT_DIR$/app.html" />
+        <option value="$PROJECT_DIR$/controllers/sportsStore.js" />
       </list>
     </option>
   </component>
@@ -478,14 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/sportsStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/productListControllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
@@ -504,8 +494,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8764045" vertical-offset="544" max-vertical-offset="1276">
+        <state vertical-scroll-proportion="-15.096774" vertical-offset="544" max-vertical-offset="1276">
           <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/sportsStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38938054" vertical-offset="0" max-vertical-offset="565">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
