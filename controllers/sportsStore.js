@@ -8,6 +8,6 @@ angular.module('sportsStore')
                 $scope.data.products = data;
             })
             .error(function(error){
-                $scope.error = error;
-            })
+                $scope.data.error = error;
+            });
     });
