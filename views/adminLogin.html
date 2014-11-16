@@ -1,0 +1,21 @@
+<div class="well" ng-controller="authCntrl">
+    <div class="alert alert-info" ng-hide="authenticationError">
+        Enter your username and password, then click Login to authenticate
+    </div>
+    <div class="alert alert-danger" ng-show="authenticationError">
+        Authentication failed ({{authenticationError.status}}). Try again.
+    </div>
+    <form name="authForm" novalidate>
+        <div class="form-group">
+            <label>Username</label>
+            <input name="username" class="form-control" ng-model="username" required/>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input name="password" class="form-control" ng-model="password" type="password" required/>
+        </div>
+        <div class="text-center">
+            <button class="btn btn-primary" ng-click="authenticate(username, password)" ng-disabled="authForm.$invalid">Login</button>
+        </div>
+    </form>
+</div>
