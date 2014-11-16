@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e77b5718-f2f4-4690-9023-5310d3b2e2c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/adminControllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminLogin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminMain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminProducts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deployd/sportsstore/data/mongod.lock" afterPath="$PROJECT_DIR$/deployd/sportsstore/data/mongod.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/adminControllers.js" afterPath="$PROJECT_DIR$/controllers/adminControllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/adminMain.html" afterPath="$PROJECT_DIR$/views/adminMain.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deployd/sportsstore/.dpd/pids/mongod" afterPath="$PROJECT_DIR$/deployd/sportsstore/.dpd/pids/mongod" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -44,8 +43,8 @@
       <file leaf-file-name="admin.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.058824" vertical-offset="265" max-vertical-offset="950">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            <state vertical-scroll-proportion="-9.117647" vertical-offset="190" max-vertical-offset="950">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -61,21 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminMain.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="adminMain.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/adminMain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="200">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.42056075" vertical-offset="0" max-vertical-offset="535">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminControllers.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="adminControllers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/adminControllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35149384" vertical-offset="0" max-vertical-offset="569">
-              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="825">
+              <caret line="25" column="99" selection-start-line="25" selection-start-column="99" selection-end-line="25" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminProducts.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/adminProducts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="200">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -123,10 +132,11 @@
         <option value="$PROJECT_DIR$/controllers/sportsStore.js" />
         <option value="$PROJECT_DIR$/views/placeOrder.html" />
         <option value="$PROJECT_DIR$/views/thankYou.html" />
-        <option value="$PROJECT_DIR$/views/adminMain.html" />
-        <option value="$PROJECT_DIR$/admin.html" />
         <option value="$PROJECT_DIR$/views/adminLogin.html" />
+        <option value="$PROJECT_DIR$/views/adminProducts.html" />
+        <option value="$PROJECT_DIR$/admin.html" />
         <option value="$PROJECT_DIR$/controllers/adminControllers.js" />
+        <option value="$PROJECT_DIR$/views/adminMain.html" />
       </list>
     </option>
   </component>
@@ -344,13 +354,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/productList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/productListControllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="585">
@@ -692,22 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/adminMain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="200">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.058824" vertical-offset="265" max-vertical-offset="950">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/adminLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="650">
@@ -716,10 +703,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminProducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7352941" vertical-offset="0" max-vertical-offset="200">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.117647" vertical-offset="190" max-vertical-offset="950">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/adminControllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35149384" vertical-offset="0" max-vertical-offset="569">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="825">
+          <caret line="25" column="99" selection-start-line="25" selection-start-column="99" selection-end-line="25" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/adminMain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42056075" vertical-offset="0" max-vertical-offset="535">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
