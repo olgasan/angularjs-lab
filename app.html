@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
 
     <title>Sports Store</title>
-    <script src="bower_components/angularjs/angular.js" ></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-route/angular-route.js"></script>
 
-    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="/bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
 
     <script type="text/javascript">
         angular.module("sportsStore", ['customFilter', 'cart', 'ngRoute'])
-            .config (function ($routeProvider){
+            .config (['$routeProvider', '$locationProvider',
+            function($routeProvider, $locationProvider) {
             $routeProvider.when("/checkout", {
                     templateUrl: 'views/checkoutSummary.html'
                 });
@@ -24,7 +25,7 @@
             $routeProvider.otherwise({
                     templateUrl: 'views/productList.html'
                 });
-        });
+        }]);
     </script>
 
     <script src="controllers/sportsStore.js"></script>
