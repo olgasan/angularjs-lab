@@ -1,0 +1,29 @@
+<div ng-controller="ordersCntrl">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        <tr ng-repeat="item in orders">
+            <td>{{item.name}}</td>
+            <td>{{calcTotal(item) | currency}}</td>
+            <td><button class="btn btn-xs btn-primary" ng-click="selectOrder(item)">Details</button> </td>
+        </tr>
+    </table>
+
+    <div ng-show="selectedOrder">
+        <h3>Order Detail</h3>
+        <table class="table table-striped table-bordered">
+            <tr >
+                <th>Name</th>
+                <th>Count</th>
+                <th>Price</th>
+            </tr>
+            <tr ng-repeat="item in selectedOrder.products">
+                <td>{{item.name}}</td>
+                <td>{{item.count}}</td>
+                <td>{{item.count * item.price | currency}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
